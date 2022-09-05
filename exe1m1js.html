@@ -1,0 +1,69 @@
+
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+/* Acesse pelo menos dois sites de sua preferência e os inspecione com o botão direito do mouse na página web.
+Com o código fonte aberto você deve: 
+
+a) - Verificar no código algum elemento que utilize JavaScript; 
+b) - Marcar alguns elementos do site; 
+c) - Explicar como ele se comporta. Exemplo: entrar no site do Google, inspecionar
+ o botão de pesquisa, verificar o código e explicar qual a finalidade do botão.
+ 
+    a)    /* SITE ACESSADO MSN 
+    1 - </script>  
+    
+    B) if (window._ttvrMarker && window._perfMarker)
+            {
+                require(["requestAnimationFrame"], function (requestAnimationFrame)
+                {
+                    requestAnimationFrame(function ()
+                    {
+    B) setTimeout(function ()
+                        {
+                            window._ttvrMarker("TTVR.SearchBox", window._perfMarker.now());
+                        }, 0);
+                    });
+                });
+            }
+        </script> 
+
+       /* c) BOTÃO ESPORTE AO SER ACIONADO ABRE UMA PÁGINA COM INFORMAÇÕES E NOTICIÁRIOS ESPORTIVOS..
+
+        <a href="https://www.msn.com/pt-br/esportes?ocid=StripeOCID" target="_blank" data-piitxt="custom Sports" piiurl="https://www.msn.com/pt-br/esportes?ocid=StripeOCID">
+            <img class="editorialMeIcon" src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BB1aXIU0.img?h=27&amp;w=27&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=png">
+    
+                        <h3>Esportes<span></span></h3>
+                    </a>*/
+
+/*a) Segundo site acessado AMAZON
+<script>
+!function(){function n(n,t){var r=i(n);return t&&(r=r("instance",t)),r}var r=[],c=0,i=function(t){return function(){var n=c++;return r.push([t,[].slice.call(arguments,0),n,{time:Date.now()}]),i(n)}};n._s=r,this.csa=n}();;
+csa('Config', {});
+
+/*b) if (window.csa) {
+    csa("Config", {
+        'Application': 'Retail:Prod:www.amazon.com.br',
+        'Events.Namespace': 'csa',
+        'ObfuscatedMarketplaceId': 'A2Q3Y263D00KWC',
+        'Events.SushiEndpoint': 'https://unagi.amazon.com.br/1/events/com.amazon.csm.csa.prod',
+        b) 'CacheDetection.RequestID': "37BPEQ0W58E2S6N19252",
+        'CacheDetection.Callback': window.ue && ue.reset,
+        'LCP.elementDedup': 1
+    });
+
+    /*c) BOTÃO GAMES
+    <a href="/Games-Consoles/b/?ie=UTF8&amp;node=7791985011&amp;ref_=nav_cs_video_games" class="nav-a  " tabindex="0" data-csa-c-type="link" data-csa-c-slot-id="nav_cs_7" data-csa-c-content-id="nav_cs_video_games" data-csa-c-id="iccnkf-z5ixjy-gw9ama-2qoz1k">Games</a>
+    FINALIDADE DE ABRIR UMA PÁGINA DESTINADA A JOGOS E CONSLOES GAMES.
+    </script>
+</body>
+</html>
